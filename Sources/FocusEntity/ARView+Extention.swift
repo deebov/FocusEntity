@@ -4,7 +4,6 @@
 //
 //  Created by Dilshod Turobov on 5/26/20.
 //
-import UIKit
 import ARKit
 import RealityKit
 
