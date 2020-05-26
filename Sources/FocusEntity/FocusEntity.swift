@@ -28,7 +28,7 @@ open class FocusSquare: Entity {
         }
     }
     
-    private var state: State = .initializing {
+    public var state: State = .initializing {
         didSet {
             guard state != oldValue else { return }
             
