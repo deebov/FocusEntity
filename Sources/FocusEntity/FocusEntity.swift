@@ -91,7 +91,7 @@ open class FocusSquare: Entity {
     
     
     
-    func setAutoUpdate(to autoUpdate: Bool) {
+    public func setAutoUpdate(to autoUpdate: Bool) {
         if autoUpdate {
             subscribeToSceneUpdates()
         } else {
@@ -142,7 +142,7 @@ open class FocusSquare: Entity {
     
     // MARK: - Update methods
     
-    func updateFocusSquare() {
+    public func updateFocusSquare() {
         if let camera = arViewDelegate?.session.currentFrame?.camera, case .normal = camera.trackingState,
             let query = arViewDelegate?.getRaycastQuery(for: .any),
             let result = arViewDelegate?.castRay(for: query).first {
