@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FocusEntity",
+        "repositoryURL": "https://github.com/deebov/FocusEntity.git",
+        "state": {
+          "branch": "master",
+          "revision": "25bee0191dea002485516573482302bb69fcae80",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
